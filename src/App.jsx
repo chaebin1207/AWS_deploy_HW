@@ -7,7 +7,9 @@ function App() {
 
   return (
     <Wrapper>
-      <Title onClick={() => navigate("/")}>숙멋 프론트의 TMI 게시판 🦁</Title>
+      <Title onClick={() => navigate("/")}>
+        숙멋 프론트의 TMI 게시판 🦁 CI/CD 설정 성공!!
+      </Title>
       <Outlet />
     </Wrapper>
   );
